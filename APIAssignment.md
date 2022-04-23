@@ -26,8 +26,9 @@ The post method asks the origin server to accept the entity attached to the requ
 HTTP POST http://www.google.com/users
 HTTP POST http://www.google.com/users/234/accounts
 
-6. Main categories of HTTP status codes
-Informational Response
+6. Main categories of HTTP status code
+
+* Informational Response
 
 100 continue - This intermediate response indicates that the client should continue the request or disregard it if the request has already been completed.
 
@@ -37,7 +38,7 @@ Informational Response
 
 103 Early Hints - This status code is meant to be used in conjunction with the Link header, allowing the user agent to begin preloading resources while the server prepares a response.
 
-Successful Response 
+* Successful Response 
 		
 200 OK - The request was granted. The HTTP method determines the meaning of "success."
 
@@ -49,7 +50,7 @@ Successful Response
 
 204 No Content - This request has no content to transmit, however, the headers may be informative. The user agent may replace the resource's cached headers with the updated ones.
 
-Redirection Messages 
+* Redirection Messages 
 
 300 Multiple Choice - There are several possible responses to the request. One of these should be chosen by the user agent or the user.
 
@@ -61,7 +62,7 @@ Redirection Messages
 
 304 Not Modified - This is for caching purposes only. It informs the client that the response has not been changed, allowing the client to continue using the cached version of the answer.
 
-Client Error Respond  
+* Client Error Respond  
 
 400 Bad Request - Because of what seems to be a client mistake, the server cannot or will not process the request.
 
@@ -73,7 +74,7 @@ Client Error Respond
 
 405 Method Not Allowed - The server is aware of the request method, but it is not supported by the destination resource. For example, an API may not permit the use of DELETE to delete a resource.
 
-Server Error Respond 
+* Server Error Respond 
 
 500 Internal Server Error - The server has met a scenario that it is unsure how to handle.
 
