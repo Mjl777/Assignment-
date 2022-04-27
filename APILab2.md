@@ -19,77 +19,77 @@
 9. The response for https://swapi.dev/api/planets is 200 OK with 21 list of response body.
 
 10. The response for https://swapi.dev/api/planets/3/ is 200 OK with 2 list and 14 property in the body.
-"name": "Yavin IV",
-    "rotation_period": "24",
-    "orbital_period": "4818",
-    "diameter": "10200",
-    "climate": "temperate, tropical",
-    "gravity": "1 standard",
-    "terrain": "jungle, rainforests",
-    "surface_water": "8",
-    "population": "1000",
-    "residents": [],
-    "films":  "https://swapi.dev/api/films/1/"
-    "created": "2014-12-10T11:37:19.144000Z",
-    "edited": "2014-12-20T20:58:18.421000Z",
-    "url": "https://swapi.dev/api/planets/3/"
+*   "name": "Yavin IV",
+*   "rotation_period": "24",
+*    "orbital_period": "4818",
+*   "diameter": "10200",
+*   "climate": "temperate, tropical",
+*   "gravity": "1 standard",
+*    "terrain": "jungle, rainforests",
+*    "surface_water": "8",
+*    "population": "1000",
+*    "residents": [],
+*    "films":  "https://swapi.dev/api/films/1/"
+*    "created": "2014-12-10T11:37:19.144000Z",
+*    "edited": "2014-12-20T20:58:18.421000Z",
+*    "url": "https://swapi.dev/api/planets/3/"
 
 11. The response for https://swapi.dev/api/starships is 200 OK with 22 list on the current page.
-"count":
- "next":
-"Previous"
- "results":
- "name":
-"model":
-"manufacturer":
-"cost_in_credits":
-"length":
- "max_atmosphering_speed":  
-"Crew":
- "Passengers":
- "cargo_capacity":
-"consumables":
-"hyperdrive_rating":
-"MGLT":
- "starship_class":
-"pilots":
-"Films":
-"created":
- "edited":
-  "url":
+* "count":
+ * "next":
+* "Previous"
+ * "results":
+ * "name":
+* "model":
+* "manufacturer":
+* "cost_in_credits":
+* "length":
+ * "max_atmosphering_speed":  
+* "Crew":
+ * "Passengers":
+ *"cargo_capacity":
+* "consumables":
+* "hyperdrive_rating":
+* "MGLT":
+ * "starship_class":
+* "pilots":
+* "Films":
+* "created":
+* "edited":
+ * "url":
 
 12. The response for https://swapi.dev/api/starships/9/ is 200 OK with 2 lists in the response body.
 
 13. The response for https://swapi.dev/api/films is 200 OK with 31 list in the response body.
 list all attributes and write their data types:
-String: 5
-Objects: 1
-Number(s): 2 
-Null: 2
-Array/list : 31
+* String: 5
+* Objects: 1
+* Number(s): 2 
+* Null: 2
+* Array/list : 31
 
 14. The response for https://swapi.dev/api/species is 200 OK with 21 lists including 1 parent list.
 
 15. The response for https://restful-booker.herokuapp.com/booking is 200 OK with 1 list and 67 arrays. 
 
 16. The response for https://restful-booker.herokuapp.com/booking/23 is 200 OK which contains the following:
-"firstname": "\"Emily\"",
-   "lastname": "\"Morin\"",
-   "totalprice": 522,
-   "depositpaid": true,
-   "bookingdates": {
-       "checkin": "2022-04-26",
-       "checkout": "2022-05-10"
-   },
-   "additionalneeds": "\"Late Checkout\"”
+* "firstname": "\"Emily\"",
+*  "lastname": "\"Morin\"",
+*   "totalprice": 522,
+*   "depositpaid": true,
+*   "bookingdates": {
+*       "checkin": "2022-04-26",
+*       "checkout": "2022-05-10"
+*  },
+*  "additionalneeds": "\"Late Checkout\"”
 17. The response for https://restful-booker.herokuapp.com/booking/3 is 200 OK which contains the following:
-"firstname": "Susan",
-   "lastname": "Jackson",
-   "totalprice": 796,
-   "depositpaid": false,
-   "bookingdates": {
-       "checkin": "2017-12-02",
-       "checkout": "2020-01-22"
+* "firstname": "Susan",
+*  "lastname": "Jackson",
+*  "totalprice": 796,
+*   "depositpaid": false,
+*   "bookingdates": {
+*       "checkin": "2017-12-02",
+*       "checkout": "2020-01-22"
 18. The response for https://jsonplaceholder.typicode.com/users is 200 OK which contains one list.
 
 19. The response for https://swapi.dev/api/species is 200 OK which is 21 list in the response body.
@@ -151,9 +151,9 @@ H. Wake and Wuthering Heights
 
 21. The response for http://dummy.restapiexample.com/api/v1/employees is 200 OK with one list in the body response. There are 5 available property(Key) names in the response body.
 Number - "id": 2,
-           String - "employee_name": "Garrett Winters",
-           Number - "employee_salary": 170750,
-           Number - "employee_age": 63,String - "profile_image": ""
+           * String - "employee_name": "Garrett Winters",
+           * Number - "employee_salary": 170750,
+           * Number - "employee_age": 63,String - "profile_image": ""
            
 22. The response for http://dummy.restapiexample.com/api/v1/employee/3 is 200 OK with 5 datas in the response body.
 
@@ -161,8 +161,8 @@ Number - "id": 2,
 
 24. The response for http://dummy.restapiexample.com/api/v1/delete/2 is 200 OK.
 "status": "success",
-   "data": "2",
-   "message": "Successfully! Record has been deleted"
+  * "data": "2",
+  *  "message": "Successfully! Record has been deleted"
 There are still 24 employees on the list and there is no sign of deletion on the list.
 
 25. The response for https://reqres.in/api/register is 400 Bad Request which contains the following: "error": "Note: Only defined users succeed registration"
