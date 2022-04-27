@@ -132,22 +132,22 @@ list all attributes and write their data types:
    },
    "ranking": 20
 }
-A. Studio, Movie, Music, and ranking
-B. Pale
-C. History - 6.6
+* A. Studio, Movie, Music, and ranking
+* B. Pale
+* C. History - 6.6
 Comedy - 4
 Fiction - 8.01
 Drama - 4.5
 Pale - 5.4
-D. Categories - History, Comedy, Fiction, and Drama
+* D. Categories - History, Comedy, Fiction, and Drama
 Directors - John, Paul, Jack, and Edward
 Titles - History, Laugh, Wake, and Wuthering Heights
 Isbn - 87877676879 and 8754543578
 Ratings  - 6.6, 4, 8.01, and 4.5
-E. Titles - History, Laugh, Wake, and Wuthering Heights
-F. Wake
-G. Drama
-H. Wake and Wuthering Heights
+* E. Titles - History, Laugh, Wake, and Wuthering Heights
+* F. Wake
+* G. Drama
+* H. Wake and Wuthering Heights
 
 21. The response for http://dummy.restapiexample.com/api/v1/employees is 200 OK with one list in the body response. There are 5 available property(Key) names in the response body.
 Number - "id": 2,
