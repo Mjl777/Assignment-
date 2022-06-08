@@ -1,21 +1,23 @@
-public class MobilePhone {
+public class MobilePhone<mobileNum> {
 
     private String brandName;
     private int mobileNum;
     private String color;
 
     public void setMobileNum(int mobileNum) {
-        this.mobileNum= mobileNum;
-    }
-    public void getMobileNum(){
-    if (mobileNum <= 25 || mobileNum >= 50)  {
-        System.out.println("0");
+        this.mobileNum = mobileNum;
     }
 
-        else;
-        System.out.println(mobileNum);
-
+    public int getMobileNum() {
+        if (mobileNum > 50 && mobileNum < 25) {
+            System.out.println("11");
+        } else {
+            System.out.println(mobileNum);
+        }
+        return mobileNum;
     }
+
+
     public void setBrandName(String brandName) {
         this.brandName = brandName;
     }
@@ -34,7 +36,7 @@ public class MobilePhone {
         phone.setMobileNum(99);
         phone.setColor("Gray");
 
-        System.out.println("Brand Name - " + phone.getBrandName() + "-Mobile Number - " + phone.getBrandName() + "-Phone Color - " + phone.getColor());
+        System.out.println("Brand Name - " + phone.getBrandName() + "-Mobile Number - "+ phone.getMobileNum()+ phone.getBrandName() + "-Phone Color - " + phone.getColor());
 
     }
 
